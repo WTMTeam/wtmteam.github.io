@@ -4,6 +4,7 @@
       "@/*": ["./*"],
       "@/components": ["./components"],
       "@/features": ["./pages/features"],
+      "@/images": ["./public/images"],
     }
   }
 }
