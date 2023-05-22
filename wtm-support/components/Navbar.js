@@ -35,7 +35,7 @@ const Navbar = () => {
 						style={{ color: `${textColor}` }}
 						className="font-bold text-4xl"
 					>
-						WTM
+						Where's That Movie
 					</h1>
 				</Link>
 				<ul
@@ -55,7 +55,7 @@ const Navbar = () => {
 						<Link href={"/support"}>Support</Link>
 					</li>
 					<li className="p-4">
-						<Link href={"/privacyPolicy"}>Privacy Policy</Link>
+						<Link href={"/policy"}>Privacy Policy</Link>
 					</li>
 				</ul>
 

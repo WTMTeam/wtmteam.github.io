@@ -42,6 +42,18 @@ export default function support() {
 					<div className="p-5 ml-[-10rem] mt-[-10rem]"></div>
 					<section>
 						<div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md ">
+							<p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
+								Got a technical issue? Want to send feedback
+								about a beta feature? Or do you just have a
+								question? Let us know.
+							</p>
+							<p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
+								Send an email to wheresthatmovie@gmail.com
+							</p>
+						</div>
+					</section>
+					<section className="hidden">
+						<div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md ">
 							<h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
 								Contact Us
 							</h2>
@@ -62,7 +74,7 @@ export default function support() {
 										type="email"
 										id="email"
 										class="block p-3 w-full text-sm rounded-lg border shadow-sm bg-transparent border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500 focus:backdrop-blur-sm shadow-sm-light"
-										placeholder="name@flowbite.com"
+										placeholder="email@example.com"
 										required
 										onBlur={(e) => {
 											if (e.target.value === "") {
@@ -92,7 +104,7 @@ export default function support() {
 										type="text"
 										id="subject"
 										class="block p-3 w-full text-sm rounded-lg border shadow-sm bg-transparent border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500  shadow-sm-light focus:backdrop-blur-sm focus:backdrop-opacity-75 transition-all duration-200"
-										placeholder="Let us know how we can help you"
+										placeholder="Let us know what your message is about"
 										required
 										onBlur={(e) => {
 											if (e.target.value === "") {
@@ -142,7 +154,7 @@ export default function support() {
 								</div>
 								<button
 									type="submit"
-									class="py-3 px-5 text-sm border border-gray-600 font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+									class="py-3 px-5 text-sm border border-gray-600 font-medium text-center text-white rounded-lg sm:w-fit focus:ring-4 focus:outline-none bg-primary-600 hover:bg-white hover:text-black focus:ring-primary-800"
 								>
 									Send message
 								</button>

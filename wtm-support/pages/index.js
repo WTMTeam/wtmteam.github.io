@@ -102,12 +102,12 @@ export default function Home() {
 						</span>
 					</h2>
 					<p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-						Find out how to contact the developers for support.
+						Contact the developers for support.
 					</p>
 				</Link>
 
 				<Link
-					href="/privacyPolicy"
+					href="/policy"
 					className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:bg-gray-100 hover:border-neutral-700 hover:bg-neutral-800/30"
 					// target="_blank"
 					// rel="noopener noreferrer"
