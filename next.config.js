@@ -6,12 +6,12 @@ const nextConfig = {
 	reactStrictMode: true,
 	// swcMinify: true,
 	output: "export",
-	basePath: "/gh-pages",
+	// basePath: "/gh-pages",
 	images: {
 		unoptimized: true,
 		domains: ["user-images.githubusercontent.com"],
 	},
-	assetPrefix: isProd ? "wtmteam/wtmteam.github.io" : "",
+	// assetPrefix: isProd ? "wtmteam.github.io" : "",
 };
 
 module.exports = nextConfig;

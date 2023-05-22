@@ -56,6 +56,7 @@ export default function Home() {
 			<div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
 				<Link
 					href="/features"
+					as={process.env.BACKEND_URL + "/features"}
 					className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:bg-gray-100 hover:border-neutral-700 hover:bg-neutral-800/30"
 					// target="_blank"
 					// rel="noopener noreferrer"
@@ -73,6 +74,7 @@ export default function Home() {
 
 				<Link
 					href="/testing"
+					as={process.env.BACKEND_URL + "/testing"}
 					className="group rounded-lg border border-transparent px-5 py-4 transition-colors  hover:bg-gray-100 hover:border-neutral-700 hover:bg-neutral-800/30"
 					// target="_blank"
 					// rel="noopener noreferrer"
@@ -91,6 +93,7 @@ export default function Home() {
 
 				<Link
 					href="/support"
+					as={process.env.BACKEND_URL + "/support"}
 					className="group rounded-lg border border-transparent px-5 py-4 transition-colors  hover:bg-gray-100 hover:border-neutral-700 hover:bg-neutral-800/30"
 					// target="_blank"
 					// rel="noopener noreferrer"
@@ -108,6 +111,7 @@ export default function Home() {
 
 				<Link
 					href="/policy"
+					as={process.env.BACKEND_URL + "/policy"}
 					className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:bg-gray-100 hover:border-neutral-700 hover:bg-neutral-800/30"
 					// target="_blank"
 					// rel="noopener noreferrer"
