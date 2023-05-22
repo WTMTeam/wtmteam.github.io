@@ -6,8 +6,8 @@ const nextConfig = {
 	reactStrictMode: true,
 	// swcMinify: true,
 	images: {
-		domains: ["user-images.githubusercontent.com"],
 		unoptimized: true,
+		domains: ["user-images.githubusercontent.com"],
 	},
 	assetPrefix: isProd ? "wtmteam.github.io" : "",
 };
