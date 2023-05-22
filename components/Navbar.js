@@ -97,7 +97,7 @@ const Navbar = () => {
 							<Link href={"/support"}>Support</Link>
 						</li>
 						<li className="p-4 text-4xl hover:text-gray-500">
-							<Link href={"/privacyPolicy"}>Privacy Policy</Link>
+							<Link href={"/privacy"}>Privacy Policy</Link>
 						</li>
 					</ul>
 				</div>
