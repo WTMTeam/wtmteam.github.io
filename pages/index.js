@@ -111,7 +111,6 @@ export default function Home() {
 
 				<Link
 					href="/policy"
-					as={process.env.BACKEND_URL + "/policy"}
 					className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:bg-gray-100 hover:border-neutral-700 hover:bg-neutral-800/30"
 					// target="_blank"
 					// rel="noopener noreferrer"
