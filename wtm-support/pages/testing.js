@@ -29,26 +29,33 @@ export default function testing() {
 				/>
 				<div className="absolute z-[2]">
 					<div className="p-5 ml-[-10rem] mt-[-10rem]"></div>
+					<h1 className="mb-2 lg:mb-4 font-bold text-center sm:text-6xl">
+						Testing
+					</h1>
 					<section>
 						<div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md ">
-							<p class="mb-8 lg:mb-16 font-light text-center text-gray-500 sm:text-xl">
+							<p class="mb-8 lg:mb-16 font-light text-center text-white sm:text-xl">
 								Want to help us out and get access to features
 								early?
 							</p>
-							<p class="mb-8 lg:mb-16 font-light text-center text-gray-500 sm:text-xl">
+							<p class="mb-8 lg:mb-16 font-light text-center text-white sm:text-xl">
 								Download TestFlight from the App Store and scan
 								the QR code
 							</p>
 						</div>
 					</section>
 				</div>
-				<div className="mt-10">
+				<div className="absolute z-[2]">
+					<div className="p-5 ml-[-10rem] mt-[-10rem]"></div>
+					{/* <div className=" mt-16 ml-[-10rem] z-[2]"> */}
 					<Image
 						src={qrCode}
 						alt="testflight qr code"
 						width={100}
 						height={100}
+						className=" ml-[35rem] mt-[15rem]"
 					></Image>
+					{/* </div> */}
 				</div>
 			</div>
 		</>

@@ -12,6 +12,7 @@ import Layout from "@/components/layout";
 import Hero from "@/components/hero";
 import wtmLogo from "../public/images/logo3.png";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function policy() {
 	return (
@@ -115,7 +116,14 @@ export default function policy() {
 							<p className="mb-8 lg:mb-16 font-light text-left text-gray-200 sm:text-xl">
 								If you have any questions or concerns about this
 								Privacy Policy or your privacy rights, please
-								contact us at [contact email address].
+								<Link
+									href="/support"
+									className="underline underline-offset-4 text-blue-600"
+								>
+									{" "}
+									contact us
+								</Link>
+								.
 							</p>
 						</div>
 					</section>
