@@ -20,7 +20,17 @@ export default function features() {
 				<title>Features</title>
 			</Head>
 			{/* <h1>Features</h1> */}
-			<Hero heading={"Features"} message={"Feature tests"} />
+			{/* <Hero heading={"Features"} message={"Feature tests"} /> */}
+			<div className="flex items-center justify-center mb-12 bg-fixed bg-center bg-cover py-10">
+				{/* <Image
+					src={wtmLogo}
+					alt="logo"
+					width={50}
+					height={50}
+					style={{ filter: "brightness(50%)" }}
+					className="z-0"
+				/> */}
+			</div>
 			<Slider slides={SliderData} />
 		</Layout>
 	);

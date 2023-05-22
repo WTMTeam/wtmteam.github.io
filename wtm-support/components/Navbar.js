@@ -11,18 +11,18 @@ const Navbar = () => {
 		setNav(!nav);
 	};
 
-	useEffect(() => {
-		const changeColor = () => {
-			if (window.scrollY >= 90) {
-				setColor("#ffffff");
-				setTextColor("#000000");
-			} else {
-				setColor("transparent");
-				setTextColor("#ffffff");
-			}
-		};
-		window.addEventListener("scroll", changeColor);
-	}, []);
+	// useEffect(() => {
+	// 	const changeColor = () => {
+	// 		if (window.scrollY >= 90) {
+	// 			setColor("#ffffff");
+	// 			setTextColor("#000000");
+	// 		} else {
+	// 			setColor("transparent");
+	// 			setTextColor("#ffffff");
+	// 		}
+	// 	};
+	// 	window.addEventListener("scroll", changeColor);
+	// }, []);
 
 	return (
 		<div

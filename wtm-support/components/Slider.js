@@ -21,7 +21,7 @@ const Slider = ({ slides }) => {
 
 	return (
 		<div className="max-w-[1240px] mx-auto">
-			<h1 className="text-2xl font-bold text-center p-4">Gallery</h1>
+			<h1 className="text-2xl font-bold text-center p-4"></h1>
 			<div className="relative flex justify-center p-4">
 				{slides.map((slide, index) => {
 					return (
@@ -42,10 +42,18 @@ const Slider = ({ slides }) => {
 								<Image
 									src={slide.image}
 									alt="demo image"
+									width={"267"}
+									height={"543"}
+								/>
+							)}
+							{/* {index === current && (
+								<Image
+									src={slide.image}
+									alt="demo image"
 									width={"400"}
 									height={"815"}
 								/>
-							)}
+							)} */}
 							<FaArrowCircleRight
 								className="absolute top-[50%] right-[30px] cursor-pointer z-[2]"
 								size={50}
