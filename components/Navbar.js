@@ -88,16 +88,36 @@ const Navbar = () => {
 							<Link href={"/"}>Home</Link>
 						</li>
 						<li className="p-4 text-4xl hover:text-gray-500">
-							<Link href={"/features"}>Features</Link>
+							<Link
+								href={"/features"}
+								as={process.env.BACKEND_URL + "/features"}
+							>
+								Features
+							</Link>
 						</li>
 						<li className="p-4 text-4xl hover:text-gray-500">
-							<Link href={"/testing"}>Testing</Link>
+							<Link
+								href={"/testing"}
+								as={process.env.BACKEND_URL + "/testing"}
+							>
+								Testing
+							</Link>
 						</li>
 						<li className="p-4 text-4xl hover:text-gray-500">
-							<Link href={"/support"}>Support</Link>
+							<Link
+								href={"/support"}
+								as={process.env.BACKEND_URL + "/support"}
+							>
+								Support
+							</Link>
 						</li>
 						<li className="p-4 text-4xl hover:text-gray-500">
-							<Link href={"/privacy"}>Privacy Policy</Link>
+							<Link
+								href={"/policy"}
+								as={process.env.BACKEND_URL + "/policy"}
+							>
+								Privacy Policy
+							</Link>
 						</li>
 					</ul>
 				</div>
