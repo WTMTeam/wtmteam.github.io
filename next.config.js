@@ -9,7 +9,7 @@ const nextConfig = {
 		unoptimized: true,
 		domains: ["user-images.githubusercontent.com"],
 	},
-	assetPrefix: isProd ? "wtmteam.github.io" : "",
+	assetPrefix: isProd ? "wtmteam/wtmteam.github.io" : "",
 };
 
 module.exports = nextConfig;
